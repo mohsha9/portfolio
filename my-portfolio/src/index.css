@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  /* navBar style */
+  .lists-class {
+    @apply relative flex justify-center items-center cursor-pointer
+  }
+
+  .my-link-class {
+    @apply px-2 mx-2
+  }
+  .home-before-content {
+    @apply px-2 mx-2 flex justify-center items-center before:absolute before:content-[''] before:w-4 before:bg-claret before:h-[3px] before:bottom-0 before:rounded-full
+  }
+  .toolkit {
+    @apply sm:inline-block hidden absolute bottom-[-30px] left-[-5px] bg-slate-100 py-1 px-2 rounded-md text-[12px] whitespace-nowrap pointer-events-none transition-opacity duration-150 opacity-0 group-hover:opacity-100
+  }
+}
+
+@layer utilities {
+  .social-link {
+    @apply flex items-center justify-center cursor-pointer p-[5px] w-8 h-8 rounded-3xl
+  }
+  .home-social-link {
+    @apply text-footerColor  sm:hover:bg-slate-100 sm:hover:text-textColor active:text-textColor
+  }
+
+  .footer-social-link {
+    @apply text-bodyColor hover:bg-gray-50 hover:bg-opacity-10 hover:text-textColor
+  }
+}
+
+@layer utilities {
+  .section-title {
+    @apply relative font-bold whitespace-nowrap text-footerColor sm:text-[40px] text-[30px] tracking-wider mb-6 sm:w-[fit] sm:h-fit border border-slate-200 rounded-md px-5 overflow-hidden before:content-[''] before:absolute before:right-3 before:w-[25px] sm:before:h-[20px] before:h-[16px] before:rounded-b-2xl before:bg-claret before:transition-all before:ease-out before:delay-[0.20s] before:translate-y-[-100%] before:group-hover:translate-y-0
+  }
+}
+
+@layer utilities {
+  .skill-icon-container {
+    @apply flex flex-col items-center justify-center w-full h-full px-5 py-4 gap-1 rounded-2xl hover:bg-slate-100 transition-all shadow
+  }
+  .skill-img {
+    @apply w-11 mb-0 duration-[0.25s] ease-in-out
+  }
+  .skill-img-hover {
+    @apply w-11 mb-0 transform rotate-6 transition-transform duration-[0.25s] ease-in-out
+  }
+}
+
+@layer utilities {
+  .input-box {
+    @apply px-4 pb-8 pt-2 transition-all duration-[0.05s] border border-lightKhaki rounded-xl tracking-wider placeholder-black placeholder:opacity-40 hover:bg-slate-100 text-textColor focus:outline-none focus:ring-4 ring-footerColor cursor-pointer
+  }
+}
