@@ -24,6 +24,11 @@ export default function ProfileInfo() {
               <span className='font-bold'> Sh</span>arma
               <span className='text-claret'>.</span>
             </h6>
+            <p className='text-textColor text-center text-[15px] sm:text-[20px
+            leading-6 sm:leading-8 mt-4 sm:mt-6'>I&apos
+            m a full-stack developer with a passion for creating beautiful and functional websites and applications. I have
+            experience working with a variety of technologies and frameworks, and I am always looking for new challenges and
+            opportunities to learn and grow.</p>
           </div>
 
           <div className='flex items-center justify-center mt-6 mb-6'>
