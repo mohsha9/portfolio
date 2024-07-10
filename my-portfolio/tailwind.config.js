@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       animation: {
-        spinSlow: "spin 50s linear infinite",
+        spinSlow: "spin 150s linear infinite",
         bounceSlow: "myBounce 1s ease-in-out infinite",
         shine: "shine 1.5s ease-out infinite",
         colorAnima: "colorAnima 1s ease-in-out infinite"

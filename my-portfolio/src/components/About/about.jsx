@@ -27,11 +27,9 @@ export default function About() {
     );
   });
 
-  const scrollRef = React.useRef(null);
-
   return (
     <section id='about' className="flex items-center flex-col  w-screen">
-      <div className='flex flex-col justify-evenly items-center w-full sm:w-[80vw] mt-[40px] sm:mb-[60px] p-8'>
+      <div className='flex flex-col justify-evenly items-center w-full sm:w-[80vw] sm:mt-[40px] sm:mb-[60px] p-8 sm:pt-8 pt-0'>
         <div className='flex flex-col items-center text-center pt-4 group mb-[50px]'>
 
           <h1 className='section-title'>About me</h1>
