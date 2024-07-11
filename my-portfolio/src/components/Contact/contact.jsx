@@ -2,7 +2,6 @@ export default function Contact() {
 
   return (
     <section id='contact' className="flex justify-center items-center sm:h-screen w-screen">
-      <img src="public/icon/Polygon2.jpg" className='absolute w-[350px]'></img>
       <div className='flex flex-col flex-grow-1 items-center justify-center px-8 py-12 w-[85%] h-full group'>
         <h1 className='section-title whitespace-nowrap'>
           Contact me

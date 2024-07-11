@@ -13,7 +13,6 @@ export default function ProfileInfo() {
       <div className="flex w-screen items-center justify-center h-screen gap-8 sm:gap-0">
 
         <div className='flex flex-col justify-center items-center p-6 z-[1] overflow-hidden'>
-          <img src='public/icon/Ellipse8.jpg' className='absolute sm:w-[430px] sm:h-[430px] min-w-[390px] z-[-1] overflow-hidden animate-spinSlow' />
           <div className='flex flex-col items-center justify-center'>
             <h6 className='text-textColor sm:leading-tight leading-8 sm:text-[45px] text-[30px] whitespace-nowrap text-center'>
               Hello! <br />
