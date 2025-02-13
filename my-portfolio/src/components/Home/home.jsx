@@ -4,7 +4,8 @@ import socialLists from '../../../data/socialMedia/socialMedia.js';
 
 export default function ProfileInfo() {
 
-  const resumeUrl = 'https://docs.google.com/document/d/1_q5WsDwQGlswkW-Qyvf22SYVf_V0xLHfLrRG83nzuBU/edit?usp=sharing';
+  // const resumeUrl = 'https://docs.google.com/document/d/1_q5WsDwQGlswkW-Qyvf22SYVf_V0xLHfLrRG83nzuBU/edit?usp=sharing';
+  const resumeUrl = 'https://docs.google.com/document/d/1nR5oc1q4oMNP1zzV9Hr3s5nZt0smH6IIj6Nn-RhEvhs/edit?tab=t.0';
 
   const homeStyle = 'home-social-link';
 
