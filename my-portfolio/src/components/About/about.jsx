@@ -36,9 +36,9 @@ export default function About() {
 
           <div className='sm:w-[50vw] text-[15px] leading-5.5 w-[80%]'>
             <p className='w-full p-4 text-textColor text-justify'>
-              Hello! My name is <span className='text-dark1Khaki font-semibold'>Mohit Sharma</span> a self-taught front-end developer with a passion for coding and a keen interest in <span className='text-footerColor font-semibold'>Photography</span>. Over the past few years, I've honed my skills in <span className='text-footerColor font-semibold'>JavaScript, ReactJs, NextJs</span> through practical projects and continuous learning.
+              Hello! My name is <span className='text-dark1Khaki font-semibold'>Mohit Sharma</span> I’m currently working as a Senior MIS Executive and transitioning into the field of data analytics. Over the past few years, I’ve developed strong skills in <span className='text-footerColor font-semibold'>Excel, reporting, and data handling, </span> and I’m now expanding into tools like <span className='text-footerColor font-semibold'>SQL, Power BI, and Python </span> through hands-on learning and projects.
               <br />
-              I believe that my eye for detail and creativity in <span className='text-footerColor font-semibold'>photography</span> translate well into my work as a developer, where I strive to create visually appealing and <span className='text-footerColor font-semibold'>user-friendly interfaces.</span>
+              My passion for photography has sharpened my attention to detail and creativity—qualities I carry into my data work, where I aim to present insights clearly and impactfully.
             </p>
           </div>
         </div>
