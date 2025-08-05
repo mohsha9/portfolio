@@ -27,13 +27,13 @@ const skills = [{
     alt: 'React Icon',
     skillLevel: '/rate-icon/rate-3.svg'
 },
-{
-    id: '5',
-    name: "Git",
-    img: '/icon/skill_icon/git.svg',
-    alt: 'Git Icon',
-    skillLevel: '/rate-icon/rate-3.svg'
-},
+// {
+//     id: '5',
+//     name: "Git",
+//     img: '/icon/skill_icon/git.svg',
+//     alt: 'Git Icon',
+//     skillLevel: '/rate-icon/rate-3.svg'
+// },
 {
     id: '6',
     name: "Figma",
@@ -47,6 +47,13 @@ const skills = [{
     img: '/icon/skill_icon/tailwindcss.svg',
     alt: 'Tailwind Icon',
     skillLevel: '/rate-icon/rate-4.svg'
+},
+{
+    id: '8',
+    name: "SQL",
+    img: '/icon/skill_icon/sql.svg',
+    alt: 'SQL Icon',
+    skillLevel: '/rate-icon/rate-2.svg'
 }];
 
 export default skills;
