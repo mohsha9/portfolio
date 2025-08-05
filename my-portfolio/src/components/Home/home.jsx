@@ -5,7 +5,8 @@ import socialLists from '../../../data/socialMedia/socialMedia.js';
 export default function ProfileInfo() {
 
   // const resumeUrl = 'https://docs.google.com/document/d/1_q5WsDwQGlswkW-Qyvf22SYVf_V0xLHfLrRG83nzuBU/edit?usp=sharing';
-  const resumeUrl = 'https://docs.google.com/document/d/1nR5oc1q4oMNP1zzV9Hr3s5nZt0smH6IIj6Nn-RhEvhs/edit?tab=t.0';
+  // const resumeUrl = 'https://docs.google.com/document/d/1nR5oc1q4oMNP1zzV9Hr3s5nZt0smH6IIj6Nn-RhEvhs/edit?tab=t.0'; //front-end
+  const resumeUrl = 'https://docs.google.com/document/d/1RNT4JOAWq1NyQRy_2Rq3iB_cgpuzoGQjTBlT4tcbevw/edit?tab=t.0';
 
   const homeStyle = 'home-social-link';
 
@@ -24,7 +25,7 @@ export default function ProfileInfo() {
             </h6>
           </div>
 
-          <p className='text-footerColor text-center text-[15px] leading-5 mt-4 sm:w-[60%] w-[80%] z-[5]'>I&apos;m an aspiring <span className='text-textColor font-bold'>front-end developer</span> passionate about creating beautiful, functional websites and applications.</p>
+          <p className='text-footerColor text-center text-[15px] leading-5 mt-4 sm:w-[60%] w-[80%] z-[5]'>I&apos;m currently working as a <span className='text-textColor font-bold'>Senior MIS Executive</span> and aspiring data analyst passionate about uncovering insights and building data-driven solutions to support decision-making.</p>
 
           <div className='flex w-full items-center sm:justify-start justify-center mt-2 sm:absolute sm:bottom-2.5 sm:left-2.5'>
             <ul className='flex flex-row sm:flex-col list-none sm:gap-0 gap-2'>
